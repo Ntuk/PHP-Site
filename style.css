@@ -1,0 +1,224 @@
+html {
+    display: inline;
+    margin: auto;
+	}
+
+body {
+    background-color: #607c81;
+	}
+	
+
+p 	{
+    font-family: "Verdana";
+	}
+
+#container 	{
+		position: relative;
+		border: 5px;
+}
+
+div {
+		border: 1px;
+		border-color: #000000;
+		border-style: solid;
+		font-family: "Verdana";
+		font-size: 12px; 
+		color: #000000;
+}
+
+.header {
+		height: 100px;
+		top: 0;
+		text-align: center;
+		padding; 10px;
+		background-color: #486c72;
+		background-image: url("logo.jpg");
+		background-repeat: no-repeat;
+}
+
+.nav {
+		float: left;
+		top: 0px;
+		left: 0px;
+		min-width: 130px;
+		max-width: 130px;
+		height: 620px;
+		padding-left: 20px;
+		line-height: 40px;
+		text-align: left;
+		background-image: url("navipalkki_v3.jpg");
+		background-repeat: no-repeat;
+		background-color: #54747a;
+		background-position: bottom;
+}
+.content {
+		height: 600px;
+		text-align: left;
+		padding: 10px;
+		background-color: #6d858a;
+		background-image: url("content_wp.jpg");
+		background-position: bottom-left;
+		background-repeat: no-repeat;
+		overflow: auto;
+		word-spacing: 100%;
+}
+#content_yksi {
+		max-width: 100%;
+		margin: 10px;
+		height: 94%;
+		padding: 10px;
+		background-color: #829ea4;
+		overflow: auto;
+		word-spacing: 100%;
+		border: 1px;
+		border-color: #000000;
+		border-style: solid;
+		color: #000000;
+		text-shadow: 0px 0px #000000;
+		background-image: url("taustakuva.jpg");
+		background-repeat: no-repeat;
+		background-position: left top;
+}
+#hakudivi {
+		border: 0px;
+		border-color: white;
+}
+.footer {
+		text-align: center;
+		height: 28px;
+		background-color: #486c72;
+		position: relative;
+		bottom: 0;
+		left: 0;
+		background-image: url("footer.jpg");
+		background-repeat: no-repeat;
+		}
+		
+.footer {
+		font-family: Verdana;
+		font-size: 10px;
+		}
+
+#lisayssivu {
+		border: 5px;
+		border-color: #000000;
+		border-style: solid;
+		font-family: "Verdana";
+		font-size: 12px; 
+		color: #000000;
+}
+.otsikko {
+		color: #a9d7dc;
+		text-shadow: 2px 2px #000000;
+}
+		
+hr {
+ 		border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+		width: 140px;
+		float: left;
+}
+
+.listaushr {
+		border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+		width: 100%;
+		float: middle;
+}
+.listaushr2 {
+		border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+		width: 100%;
+		float: middle;
+}
+.naytahr {
+		border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+		width: 30%;
+		float: left;
+}
+input[type=text], textarea {
+		border: 2px dotted #22353b;
+    	border-radius: 6px;
+    	background-color: #9abac4;
+    	color: black;
+		resize: none;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+    	background-color: #9abac4;
+ 		border: 1px dashed #22353b;
+    	color: black;
+    	padding: 5px 9px;
+    	text-decoration: none;
+    	margin: 2px 1px;
+    	cursor: pointer;
+}	
+#listauspainike {
+    	background-color: #9abac4;
+ 		border: 1px dashed #22353b;
+    	color: black;
+    	padding: 3px 6px;
+    	text-decoration: none;
+    	margin: 2px 1px;
+    	cursor: pointer;
+}	
+select {
+		background-color: #9abac4;
+		border: 2px dotted #22353b;
+    	border-radius: 6px;
+    	color: black;
+		resize: none;
+		width: 147px;
+}
+table, td {
+		float: top;
+		float: left;
+		width: 300px;
+		border-collapse: collapse;
+    	border: 0px;
+}
+.listataulukko {
+		width: 80%;
+}
+#vastaus {	
+		border: 0px;	
+}		
+		
+		
+		
+		
+		
+ul {
+		list-style-type: none;
+		text-align: left;
+		margin: 10px;
+		padding: 5px;
+	}
+	
+li 		{
+		display: block;
+		margin: 25px;
+	
+		}
+		
+a:link {
+		font-size: 20px;
+		color: #a9d7dc;
+		text-shadow: 2px 2px #000000;
+		text-decoration: none;
+}
+
+a:visited {
+		font-size: 20px;
+		color: #a9d7dc;
+		text-decoration: none;
+		}
+
+a:hover {
+		font-size: 20px;
+		background-color:#598790;
+		border: 2px dotted #22353b;
+		padding: 6px;
+		}
+		
+img {
+		border: solid;
+		border-color: #000000;
+	}
